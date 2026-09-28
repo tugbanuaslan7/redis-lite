@@ -14,7 +14,7 @@ class Entry:
 
 
 class Store:
-    """Tüm key-value verisini bellekte tutan ana veri deposu (store: dict[str, Entry)."""
+    """Tüm key-value verisini bellekte tutan ana veri deposu (store: dict[str, Entry])."""
 
     def __init__(self):
         self.entries: dict[str, Entry] = {}
